@@ -1,10 +1,3 @@
--- Escreva uma query que retorne o nome das pessoas usuárias e a quantidade de músicas reproduzidas por ela. Ordene o resultado pela maior quantidade de reprodução e em caso de empate, ordene pelo nome da pessoa, em ordem alfabética
-
-
---     A coluna name com o alias Nome.
---     A coluna com a soma das reproduções com o alias Quantidade de músicas reproduzidas;
-
-
 SELECT
   u.full_name AS Nome,
   COUNT(hps.id) AS "Quantidade de músicas reproduzidas"
