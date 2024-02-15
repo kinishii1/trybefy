@@ -1,1 +1,1 @@
-SELECT full_name AS 'Nome completo', birthday AS 'Data de nascimento' FROM users WHERE active = true AND birthday >= '1990-01-01';
+SELECT full_name AS 'Nome completo', birthday AS 'Data de nascimento' FROM users WHERE active = true AND YEAR(birthday) >= '1990';
