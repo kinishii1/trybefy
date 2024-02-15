@@ -1,6 +1,6 @@
 SELECT name AS Artista
-  FROM artists
-  JOIN albums ON artists.id = albums.artist_id
+  FROM artists ar
+  JOIN albums a ON ar.id = a.artist_id
   GROUP BY name
-  HAVING COUNT(albums.id) >= 3
+  HAVING COUNT(a.id) >= 3
   ORDER BY name;

@@ -1,8 +1,8 @@
 SELECT 
   name AS 'Plano',
-  COUNT(users.plan_id) AS 'Quantidade de usuários'
-FROM users
-JOIN plans
-ON users.plan_id = plans.id
+  COUNT(u.plan_id) AS 'Quantidade de usuários'
+FROM users u
+JOIN plans p
+ON u.plan_id = p.id
 GROUP BY name
 ORDER BY name;

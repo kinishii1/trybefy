@@ -1,8 +1,8 @@
 SELECT
     name AS Artista,
-    COUNT(albums.artist_id) AS 'Quantidade de álbuns'
-FROM artists
-JOIN albums
-ON artists.id = albums.artist_id
+    COUNT(a.artist_id) AS 'Quantidade de álbuns'
+FROM artists ar
+JOIN albums a
+ON ar.id = a.artist_id
 GROUP BY name
-ORDER BY COUNT(albums.artist_id) DESC, name;
+ORDER BY COUNT(a.artist_id) DESC, name;

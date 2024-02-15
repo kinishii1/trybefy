@@ -1,9 +1,9 @@
 SELECT
-  artists.name AS Artista,
-  albums.title AS Álbum,
-  songs.title AS Música
-FROM artists
-JOIN albums ON artists.id = albums.artist_id
-JOIN songs ON albums.id = songs.album_id
-WHERE artists.name <> 'The Beatles'
-ORDER BY artists.name, albums.title, songs.title;
+  a.name AS Artista,
+  al.title AS Álbum,
+  s.title AS Música
+FROM artists a
+JOIN albums al ON a.id = al.artist_id
+JOIN songs s ON a.id = s.album_id
+WHERE a.name <> 'The Beatles'
+ORDER BY a.name, al.title, s.title;
