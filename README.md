@@ -57,7 +57,7 @@ Neste projeto, verificamos se você é capaz de:
 
 - Este projeto é individual.
 - Será `X` dias de projeto.
-- Data para entrega final do projeto:`dd/mm/yyyy - 14:00h`.
+- Data para entrega final do projeto:`29/02/2024 23:59`.
 
 </details>
 
@@ -85,7 +85,7 @@ Neste projeto, verificamos se você é capaz de:
 
 1. Clone o repositório
 
-- Use o comando: `git clone git@github.com:tryber/sd-0x-project-trybefy.git`
+- Use o comando: `git clone git@github.com:tryber/sd-036-project-trybefy.git`
 - Entre na pasta do repositório que você acabou de clonar:
     - `cd <diretório-do-projeto>`
 
@@ -172,7 +172,7 @@ Para sinalizar que o seu projeto está pronto para o _'Code Review'_ dos seus co
 
 - No menu à direita, clique no _link_ **'Assignees'** e escolha **o seu usuário**;
 
-- No menu à direita, clique no _link_ **'Reviewers'** e digite `students`, selecione o time `tryber/students-sd-0x`.
+- No menu à direita, clique no _link_ **'Reviewers'** e digite `students`, selecione o time `tryber/students-sd-036`.
 
 Caso tenha alguma dúvida, [aqui tem um vídeo explicativo](https://vimeo.com/362189205).
 
@@ -1177,7 +1177,7 @@ Esta query deve ser escrita em `src/30_challenge.sql` e deve possuir os seguinte
 Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário.
 **Leva menos de 3 minutos!**
 
-[Formulário de avaliação do projeto](https://be-trybe.typeform.com/to/ZTeR4IbH)
+[Formulário de avaliação do projeto](https://be-trybe.typeform.com/to/ZTeR4IbH#cohort_hidden=CH36&template=betrybe/sd-0x-project-trybefy)
 
 </details>
   
