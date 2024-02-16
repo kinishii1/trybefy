@@ -2,7 +2,7 @@ CREATE TABLE history_play_songs (
   id INTEGER PRIMARY KEY AUTO_INCREMENT,
   user_id INTEGER NOT NULL,
   song_id INTEGER NOT NULL,
-  played_at DATE NOT NULL,
+  played_at DATETIME NOT NULL,
   FOREIGN KEY (user_id) REFERENCES users (id),
   FOREIGN KEY (song_id) REFERENCES songs (id)
 );

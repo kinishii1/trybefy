@@ -1,6 +1,7 @@
 CREATE TABLE artists_followers (
   user_id INTEGER NOT NULL,
   artist_id INTEGER NOT NULL,
+  PRIMARY KEY (user_id, artist_id),
   FOREIGN KEY (user_id) REFERENCES users(id),
   FOREIGN KEY (artist_id) REFERENCES artists(id)
 );

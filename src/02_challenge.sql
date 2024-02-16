@@ -2,14 +2,14 @@ USE Trybefy;
 CREATE TABLE plans (
     id INTEGER PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(50) NOT NULL,
-    price NUMERIC(5, 2) NOT NULL
+    price FLOAT(5, 2) NOT NULL
 );
 CREATE TABLE users (
     id INTEGER PRIMARY KEY AUTO_INCREMENT,
     full_name VARCHAR(50) NOT NULL,
     email VARCHAR(50) NOT NULL UNIQUE,
-    birthday DATE,
-    active BOOLEAN DEFAULT true,
+    birthday DATE NOT NULL,
+    active BOOLEAN NOT NULL DEFAULT 1,
     plan_id INTEGER NOT NULL,
     FOREIGN KEY (plan_id) REFERENCES plans(id)
 );
